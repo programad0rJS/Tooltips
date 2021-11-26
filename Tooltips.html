@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tooltip</title>
+    <style>
+        body {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        .tooltip {
+            position: relative;
+            display: inline-block;
+
+        }
+
+        .tooltiptext {
+            width: 420px;
+            background-color: black;
+            color: #fff;
+           
+            border-radius: 6px;
+            padding: 5px 0;
+            position: absolute;
+
+
+            bottom: 100%;
+
+
+
+            opacity: 0;
+            transition: opacity 1s;
+        }
+
+        .tooltip:hover .tooltiptext {
+
+            opacity: 1;
+        }
+    </style>
+</head>
+
+<body style="text-align:center;">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+
+
+    <div class="tooltip">
+        <h2>Pasa el cursor sobre mi</h2>
+        <span class="tooltiptext">
+            Josue
+        </span>
+    </div>
+</body>
+
+</html>
